@@ -3,7 +3,7 @@ def call() {
     
     // Add your unit test commands here
     // For example:
-    // sh "npm test" or "mvn test" depending on your project
+    sh "mvn test"
     
-    echo "Unit tests completed successfully"
+   // echo "Unit tests completed successfully"
 }
