@@ -1,5 +1,5 @@
 def call(Map config = [:]) {
-    def projectKey   = config.projectKey   ?: 'fined-mentor'
+    def projectKey   = config.projectKey   ?: 'Fined-Mentor'
     def projectName  = config.projectName  ?: 'Fined Mentor'
     def sonarServer  = config.sonarServer  ?: 'sonarqube'      // matches Jenkins config name
     def sonarToken   = config.sonarToken   ?: 'sonarqube-token' // Jenkins credential ID
